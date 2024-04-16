@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wrapper{
+    padding: 4%;
+    background-image: url('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_640.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#form1, #loginForm{
+    width: 40%;
+    background-color: white;
+    position: relative;
+    border: 1px solid black;
+    padding: 4%;
+    margin: 20px;
+    left: 30%;
+}
+
+
+.form1, .loginForm{
+    animation: slideIn 1s ease-out;
+  }
+
+label, input{
+    display: block;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+
+@keyframes slideIn {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
